@@ -1,0 +1,25 @@
+# Steel Surface Defect Detection Dataset Configuration
+# NEU-DET Dataset - 6 Classes
+
+# Dataset paths (update these to your local paths)
+path: ./data
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 6
+
+# Class names
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
+
+# Dataset information
+# Source: Northeastern University Surface Defect Database
+# Total images: 1,800 (200x200 pixels, grayscale)
+# Train: 1,439 images (80%)
+# Val: 360 images (20%)
