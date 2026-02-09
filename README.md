@@ -95,7 +95,7 @@ An interesting finding from this project:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/steel-defect-detection.git
+git clone https://github.com/Alansi775/AI-Steel-Defect-Detection.git
 cd steel-defect-detection
 
 # Install dependencies
