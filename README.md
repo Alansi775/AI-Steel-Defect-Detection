@@ -1,4 +1,4 @@
-# 🔍 Steel Surface Defect Detection using YOLOv8
+# Steel Surface Defect Detection using YOLOv8
 
 <div align="center">
 
@@ -15,18 +15,18 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 This project implements a deep learning-based defect detection system using YOLOv8 for identifying surface defects on steel structures. The system is designed to be deployed on autonomous drones for building facade inspection before cleaning operations.
 
-### 🎯 Key Features
+### Key Features
 
 - **Real-time Detection**: 4.2ms inference time per image
 - **High Accuracy**: 74.8% mAP@0.5
 - **6 Defect Classes**: Comprehensive coverage of common steel defects
 - **Production Ready**: Optimized for edge device deployment
 
-### 🔍 Detected Defect Types
+### Detected Defect Types
 
 | ID | Defect Type | Description |
 |----|-------------|-------------|
@@ -39,13 +39,13 @@ This project implements a deep learning-based defect detection system using YOLO
 
 ---
 
-## 📊 Results
+## Results
 
 ### Overall Performance
 
 | Model | mAP@0.5 | mAP@0.5:0.95 | Parameters | Inference Time |
 |-------|---------|--------------|------------|----------------|
-| **YOLOv8n** | **0.748** | **0.402** | 3.0M | 4.2ms ✅ |
+| **YOLOv8n** | **0.748** | **0.402** | 3.0M | 4.2ms |
 | YOLOv8s | 0.739 | 0.390 | 11.1M | 9.8ms |
 
 ### Per-Class Performance (YOLOv8n)
@@ -67,7 +67,7 @@ This project implements a deep learning-based defect detection system using YOLO
 
 ---
 
-## 🔬 Model Comparison Analysis
+## Model Comparison Analysis
 
 An interesting finding from this project:
 
@@ -84,7 +84,7 @@ An interesting finding from this project:
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Training
 
@@ -156,7 +156,7 @@ names: ['crazing', 'inclusion', 'patches',
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 ### NEU-DET Dataset
 
@@ -176,7 +176,7 @@ names: ['crazing', 'inclusion', 'patches',
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 steel-defect-detection/
@@ -207,7 +207,7 @@ steel-defect-detection/
 
 ---
 
-## 🔧 Training Configuration
+## Training Configuration
 
 | Parameter | Value |
 |-----------|-------|
@@ -221,7 +221,7 @@ steel-defect-detection/
 
 ---
 
-## 🎯 Future Work
+## Future Work
 
 - [ ] Deploy model on Jetson Nano for drone integration
 - [ ] Add more defect classes
@@ -231,7 +231,7 @@ steel-defect-detection/
 
 ---
 
-## 📚 References
+## References
 
 1. Meng, J., & Wen, S. (2024). "Detection of Steel Surface Defects Based on Improved YOLOv8n Algorithm." *2024 International Conference on AI-Powered Medical and Vocational Practice (AIPMV)*, IEEE.
 
@@ -241,27 +241,28 @@ steel-defect-detection/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
+## Author
 
 **Mohammed Abdulqawi Alezzi Saleh**
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+- GitHub: [@Alansi775](https://github.com/Alansi775)
+- LinkedIn: [Mohammed Saleh](https://www.linkedin.com/in/mohamed-saleh-a2a496276/)
+- Portfilio: [Mohammed Saleh](https://alansi775.github.io/MohammedSaleh/)
 
 ---
 
-## ⭐ Show Your Support
+## Show Your Support
 
-Give a ⭐ if this project helped you!
+Give a star if this project helped you!
 
 ---
 
 <div align="center">
-Made with ❤️ for autonomous drone inspection systems
+Made with love for autonomous drone inspection systems
 </div>
